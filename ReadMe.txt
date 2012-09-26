@@ -1,0 +1,3 @@
+This is just a generic collection of bits. Created so I wouldn't have to keep reimplementing stuff over, and over, and over...
+
+Use it, copy it, whatever. If it breaks your shit, not my problem. Give me credit or blame as you see fit.
