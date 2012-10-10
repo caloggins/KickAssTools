@@ -1,6 +1,7 @@
 ﻿namespace KickAss.Tools.Activities
 {
-    public interface IActivity
+    public interface IActivityResult
     {
+         
     }
 }
