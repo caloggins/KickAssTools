@@ -46,6 +46,9 @@
     <Reference Include="FakeItEasy">
       <HintPath>..\packages\FakeItEasy.1.7.4626.65\lib\NET40\FakeItEasy.dll</HintPath>
     </Reference>
+    <Reference Include="FizzWare.NBuilder">
+      <HintPath>..\packages\NBuilder.3.0.1.1\lib\FizzWare.NBuilder.dll</HintPath>
+    </Reference>
     <Reference Include="FluentAssertions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=33f2691a05b67b6a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\FluentAssertions.2.0.0\lib\net40\FluentAssertions.dll</HintPath>
@@ -73,6 +76,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="Comparison\PropertyComparisonTests.cs" />
     <Compile Include="ContextSpecification.cs" />
     <Compile Include="Injection\WindsorServiceLocator.cs" />
     <Compile Include="Injection\WindsorServiceLocatorTests.cs" />

@@ -55,6 +55,7 @@
     <Compile Include="Activities\IActivityFactory.cs" />
     <Compile Include="Activities\IActivityWithoutResult.cs" />
     <Compile Include="Activities\IActivityWithResult.cs" />
+    <Compile Include="Comparison\ComparisonExtensionMethods.cs" />
     <Compile Include="Injection\WindsorServiceLocator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Serialization\ISerializer.cs" />
