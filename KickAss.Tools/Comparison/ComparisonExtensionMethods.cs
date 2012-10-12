@@ -6,6 +6,9 @@ namespace KickAss.Tools.Comparison
 
     public static class ComparisonExtensionMethods
     {
+        /// <summary>
+        /// Found at http://stackoverflow.com/questions/506096/comparing-object-properties-in-c-sharp
+        /// </summary>
         public static bool PublicInstancePropertiesEqual<T>(this T self, T to, params string[] ignore)
             where T : class
         {
