@@ -5,7 +5,7 @@ namespace KickAss.Tools.Activities
         void Execute();
     }
 
-    public interface IActivityWithoutResult<in TContext>
+    public interface IActivityWithoutResult<in TContext> : IActivity
         where TContext : ActivityContext
     {
         void Execute(TContext context);
