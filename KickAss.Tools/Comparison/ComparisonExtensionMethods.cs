@@ -27,5 +27,11 @@ namespace KickAss.Tools.Comparison
             }
             return self == to;
         }
+
+        public static bool HasPublicPropertiesEqualTo<T>(this T self, T to, params string[] ignore)
+            where T : class
+        {
+            return self.PublicInstancePropertiesEqual(to, ignore);
+        }
     }
 }

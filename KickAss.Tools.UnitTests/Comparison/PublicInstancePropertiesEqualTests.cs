@@ -5,7 +5,7 @@
     using Microsoft.VisualStudio.TestTools.UnitTesting;
     using Tools.Comparison;
 
-    public static class PropertyComparisonTests
+    public static class PublicInstancePropertiesEqualTests
     {
         [TestClass]
         public class WhenComparingClassesWithEqualProperties : ContextSpecification
