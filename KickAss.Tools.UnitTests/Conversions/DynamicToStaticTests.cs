@@ -4,6 +4,7 @@
     using Microsoft.CSharp.RuntimeBinder;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
     using FluentAssertions;
+    using TestingBits;
     using Tools.Conversions;
 
     public static class DynamicToStaticTests
