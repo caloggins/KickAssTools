@@ -3,6 +3,7 @@
     using FizzWare.NBuilder;
     using FluentAssertions;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
+    using TestingBits;
     using Tools.Comparison;
 
     public static class PublicInstancePropertiesEqualTests

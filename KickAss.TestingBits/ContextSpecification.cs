@@ -1,4 +1,4 @@
-﻿namespace KickAss.Tools.UnitTests
+﻿namespace KickAss.TestingBits
 {
     using Microsoft.VisualStudio.TestTools.UnitTesting;
 

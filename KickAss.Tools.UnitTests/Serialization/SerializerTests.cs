@@ -2,6 +2,7 @@
 {
     using FluentAssertions;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
+    using TestingBits;
     using Tools.Serialization;
 
     public static class SerializerTests
@@ -24,8 +25,8 @@
             private ChildClass result;
             public const string SampleXml = @"<?xml version='1.0' encoding='utf-8' ?>
 <ChildClass>
-	<FirstName>Joe</FirstName>
-	<LastName>Baggodonuts</LastName>
+    <FirstName>Joe</FirstName>
+    <LastName>Baggodonuts</LastName>
 </ChildClass>";
 
             protected override void BecauseOf()

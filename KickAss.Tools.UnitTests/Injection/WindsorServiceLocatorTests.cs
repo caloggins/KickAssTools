@@ -4,6 +4,7 @@
     using Castle.Windsor;
     using FluentAssertions;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
+    using TestingBits;
 
     public static class WindsorServiceLocatorTests
     {
