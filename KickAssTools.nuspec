@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>KickAssTools</id>
+        <version>2.0.0</version>
+        <title />
+        <authors>christopher.loggins</authors>
+        <owners />
+        <licenseUrl>http://opensource.org/licenses/gpl-3.0.html</licenseUrl>
+        <projectUrl>https://github.com/caloggins/KickAssTools</projectUrl>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <description>A collection of things implemented in a common library. Named for our development team.</description>
+        <summary>A collection of things implemented in a common library.</summary>
+        <releaseNotes>First split for .NET 4.0 and 4.5.</releaseNotes>
+        <copyright>Copyright 2012-2013 by Christopher Loggins</copyright>
+        <language>en-US</language>
+        <tags>tools</tags>
+        <dependencies>
+            <group targetFramework=".NETFramework4.0">
+                <dependency id="CommonServiceLocator" version="1.0" />
+                <dependency id="ImpromptuInterface" version="6.0.6" />
+                <dependency id="Castle.Windsor" version="3.2.0" />
+            </group>
+            <group targetFramework=".NETFramework4.5">
+                <dependency id="Castle.Windsor" version="3.2.0" />
+                <dependency id="CommonServiceLocator" version="1.0" />
+                <dependency id="ImpromptuInterface" version="6.0.6" />
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="KickAss.Tools.Net4\bin\Release\KickAss.Tools.Net4.dll" target="lib\net40\KickAss.Tools.Net4.dll" />
+        <file src="KickAss.Tools.Net4\bin\Release\KickAss.Tools.Net4.pdb" target="lib\net40\KickAss.Tools.Net4.pdb" />
+        <file src="KickAss.Tools\bin\Release\KickAss.Tools.dll" target="lib\net45\KickAss.Tools.dll" />
+        <file src="KickAss.Tools\bin\Release\KickAss.Tools.pdb" target="lib\net45\KickAss.Tools.pdb" />
+    </files>
+</package>

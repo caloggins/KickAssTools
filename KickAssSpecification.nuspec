@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>KickAssSpecification</id>
+        <version>2.0.0</version>
+        <title>KickAssSpecification</title>
+        <authors>christopher.loggins</authors>
+        <owners />
+        <licenseUrl>http://opensource.org/licenses/gpl-3.0.html</licenseUrl>
+        <projectUrl>https://github.com/caloggins/KickAssTools</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Sister assembly to KickAss.Tools. Contains helpers for implementing the Specification Pattern.</description>
+        <summary>Sister assembly to KickAss.Tools. Contains helpers for implementing the Specification Pattern.</summary>
+        <releaseNotes>Added .NET 4.5 targets.</releaseNotes>
+        <copyright>Copyright 2013 by Christopher Loggins</copyright>
+        <language>en-US</language>
+        <tags>tools</tags>
+    </metadata>
+    <files>
+        <file src="KickAss.Specification.Net4\bin\Release\KickAss.Specification.Net4.dll" target="lib\net40\KickAss.Specification.Net4.dll" />
+        <file src="KickAss.Specification.Net4\bin\Release\KickAss.Specification.Net4.pdb" target="lib\net40\KickAss.Specification.Net4.pdb" />
+        <file src="KickAss.Specification\bin\Release\KickAss.Specification.dll" target="lib\net45\KickAss.Specification.dll" />
+        <file src="KickAss.Specification\bin\Release\KickAss.Specification.pdb" target="lib\net45\KickAss.Specification.pdb" />
+    </files>
+</package>
